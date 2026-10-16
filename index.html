@@ -1,18 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ISS Live Tracker</title>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>ISS Live Tracker</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div id="map"></div>
-    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="app.js"></script>
+  <div id="map"></div>
+  <div id="panel">
+    <h1>ISS live tracker</h1>
+    <p>Latitude: <span id="lat">-</span></p>
+    <p>Longitude: <span id="lon">-</span></p>
+    <p>Altitude: <span id="alt">-</span> km</p>
+    <p>Speed: <span id="vel">-</span> km/h</p>
+    <p>Updated: <span id="time">-</span></p>
+    <p id="status"></p>
+    <h2>Crew</h2>
+    <ul id="crew"></ul>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+  <script src="app.js"></script>
 </body>
-
 </html>
