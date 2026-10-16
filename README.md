@@ -2,7 +2,7 @@
 
 A live world map showing the real-time position of the International Space Station, updating every 5 seconds, with its recent orbital trail and current stats.
 
-**Live demo:** https://brettleevector-art.github.io/iss-tracker/
+**Live demo:** https://brettleevector-art.github.io/ISS-Tracker/
 
 ![ISS Live Tracker screenshot](screenshot.png)
 
